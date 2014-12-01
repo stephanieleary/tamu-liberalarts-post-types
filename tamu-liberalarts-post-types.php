@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Liberal Arts Custom Post Types and Taxonomies
-Version: 1.1
+Version: 1.2
 Author: Stephanie Leary
 Author URI: http://stephanieleary.com/
 Description: Post types for people, publications, dissertations, courses, and degree requirements, along with all their associated taxonomies.
