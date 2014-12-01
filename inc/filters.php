@@ -2,6 +2,9 @@
 
 // Add people template to archive page loop
 function liberal_arts_people_loop_display($content) {
+	if ( 'people' !== get_post_type() )
+		return $content;
+		
 	$options = get_option('liberal_arts_cpts');
 	$content = wpautop( $options['people_display_template'] ) . $content;
 	
